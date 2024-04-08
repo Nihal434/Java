@@ -1,0 +1,25 @@
+Agenda : Variable and declaration of Variable
+
+total no. of datatypes = 8
+int
+string
+float
+boolean
+double
+long
+----------------->
+
+syntax to create variables 
+:-
+Datatype Var_name;
+
+e.g int age;
+    string name;
+
+----------------->
+
+problem statement :-  A student has age and location
+
+class Student{
+
+}
