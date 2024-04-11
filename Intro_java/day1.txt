@@ -1,3 +1,8 @@
+
+*** James gosling in 1991 developed java ****
+
+---------------------------------------------->
+
 Day-1 Agenda : Variable and declaration of Variable
 
 variable : it is a container used to store some value/data 
@@ -33,7 +38,6 @@ class Student{
 *****************
 
 Day-2 Agenda : custom variable/user defined variable
-               why to create class in java
 
 class Phone{
     int landline;
@@ -72,4 +76,51 @@ class Student{
     int age;
     string name;
     Address add;
+}
+
+*****************
+
+Agenda day-3 : why to create class in java
+               what is class
+               what is oops
+
+class : class is a real world entity which consists of variable/attributes and methods.
+
+
+class School{
+string name;
+string loc;
+
+curicullum();
+events();
+}
+
+class Comapnay{
+string emp;
+int salary;
+
+working_project();
+services();
+}
+
+class Cars{
+    string name;
+    int speed;
+
+    features();
+    running();
+}
+
+class Animal{
+    string name;
+    int height;
+    eating();
+    sleeping();
+}
+
+class Trees{
+string name;
+string type;
+providing_fruits();
+providing_shelter();
 }
