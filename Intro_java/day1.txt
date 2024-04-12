@@ -85,42 +85,35 @@ Agenda day-3 : why to create class in java
                what is oops
 
 class : class is a real world entity which consists of variable/attributes and methods.
+oops : it is a set of rules which contains methods and classes.
+
+*****************
+
+Agenda day-4 : what is methods
+               how to define methods in java 
+
+method is a subprogram/operations, collection of statements which is used to do some operations.
+
+syntax of method : void NameOfMethod( input parameters ){
+                                                            # programs/statement
+                                                        }
+
+void nameOfMethod( input parameters ) ==> method header part / signature
+
+{ <----------------------------------------- start of method
+
+    # programs/statement 
+    
+} <----------------------------------------- end of method
 
 
-class School{
-string name;
-string loc;
-
-curicullum();
-events();
-}
-
-class Comapnay{
-string emp;
-int salary;
-
-working_project();
-services();
-}
-
-class Cars{
-    string name;
-    int speed;
-
-    features();
-    running();
-}
-
-class Animal{
-    string name;
-    int height;
-    eating();
-    sleeping();
-}
-
-class Trees{
-string name;
-string type;
-providing_fruits();
-providing_shelter();
+class Calaculator{
+    int price = 999 ;
+    string cname = "casio";
+    
+    void addTwo(int a , int b){
+        int c;
+        c = a+b;
+        System.out.println(c); 
+    }
 }
