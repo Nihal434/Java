@@ -117,3 +117,94 @@ class Calaculator{
         System.out.println(c); 
     }
 }
+
+*****************
+Agenda Day-5 : how to test our class
+
+
+class Calaculator{
+    void multiplication(int num1,int num2){
+        int product = num1*num2;
+        System.out.println("product" + product);
+    }
+    void addTwo(int a , int b){
+        int c;
+        c = a+b;
+        System.out.println(c); 
+    }
+}
+
+class Apple{
+    void selling_price(int mrp.int discount){
+        int selling_price;
+        selling_price = mrp - (mrp*(discount/100));
+        System.out.println(selling_price);
+    }
+}
+
+class School{
+    String name=XYZ;
+    String loc;
+
+    void curriculum(){};
+    void events(){};
+}
+class Company{
+    String emp;
+    int salary;
+    void working_projects(){};
+    void services(){};
+
+}
+class Cars{
+    String name;
+    int speed;
+    void features(){};
+    void running(){};
+}
+class Animals{
+    String name;
+    int height;
+    void eating(){};
+    void sleeping(){};
+}
+class Trees{
+    String type;
+    int height;
+    void providing_fruis(){};
+    void providing_shelters(){};
+}
+class Genral_test {
+    public static void main(String[] args) {
+
+        Calaculator c1 = new Calaculator();
+        c1.multiplication(10,20);
+        c1.addTwo(10,20);
+
+        Apple a1 = new Apple();
+        a1.selling_price(10000,10);
+
+        School s1 = new School();
+        s1.curriculum;
+        s1.events;
+        s1.name;
+
+        Company com1 = new Company();
+        com1.working_projects();
+        com1.services();
+
+        Cars car1 = new Cars();
+        car1.features();
+        car1.running();
+
+        Animals a1 = new Animals();
+        a1.eating();
+        a1.sleeping();
+
+        Trees t1 = new Trees();
+        t1.providing_shelters();
+        t1.providng_fruits() 
+        
+    }
+    
+}
