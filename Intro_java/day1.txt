@@ -158,4 +158,14 @@ Agenda Day-7 :
 *****************
 Agenda Day-8 : method return type
 
+-> If we want some output from method then we need return statement
+-> it will be the last line of our code
+-> we can return only single value from method
+-> if we want to return more than one thing then we have to return array and have to mention it in the method signature
+-> only one return statement get executed in one method but we can write multiple return statement
+
+*****************
+Agenda Day-9 : Inter method inter class communication
+
+
 
