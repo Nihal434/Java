@@ -167,5 +167,17 @@ Agenda Day-8 : method return type
 *****************
 Agenda Day-9 : Inter method inter class communication
 
+*****************
+Agenda Day-10 : How java works
+               What is JRE JDK
+
+-> 
+
+*****************
+Agenda Day-11 : JIT compiler
+                packages and import
+
+-> JIT : Just In Time compiler
+
 
 
