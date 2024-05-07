@@ -1,26 +1,23 @@
 public class Practice{
     public static void main(String[] args) {
 
-        int n = 8;
-        if(n==0){
-            System.out.println("0");
-        }else if (n==1) {
-            System.out.println("1");
-            
-        } else {
-            // System.out.println("none");
-            int first_term=0;
-            int second_term = 1;
-            int third_term;
-            for (int i = 1; i <= n; i++) {
-                third_term = first_term+second_term;
-                first_term=second_term;
-                second_term=third_term;
-                
-            }
-            System.out.println(first_term);
+        int n = 2001;
 
-            
+        if(n%4==0){
+            if(n%100==0){
+                if(n%400==0){
+                    System.out.println("Leap year");
+                }else{
+                    System.out.println("Not a leap year");
+                }
+            }else{
+                System.out.println("Leap year");
+            }
+        
+        }else{
+            System.out.println("Not a leap year");
         }
+        
     }
+
 }

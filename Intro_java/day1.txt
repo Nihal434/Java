@@ -2,7 +2,7 @@
 *** James gosling in 1991 developed java ****
 
 What is programming
---> It is a technological process for telling computer which tasks tonperform is order to solve problems by taking some inputs.
+--> It is a technological process for telling computer which tasks to perform is order to solve problems by taking some inputs.
 
 ---------------------------------------------->
 
@@ -179,5 +179,74 @@ Agenda Day-11 : JIT compiler
 
 -> JIT : Just In Time compiler
 
+*****************
+Agenda Day-12 : Object creation
+                new keyword
+                reference variable
 
+-> new keyword : it is a keyword and it creates a new memory loc inside heap memory for reference variable 
+                 it is a keyword use to create instance of class
+                 In other words, it instantiates a class by allocating memory(heap memory) for a new object and 
+                 returning a reference to that memory.
+
+-> reference variable : It is used to point objects/class
+                        It holds address of object in heap memory
+
+-> object : An object is a member of a Java class, which has its own identity, 
+            behavior, and state. An object is also known as an instance of a class 
+            because a class is a blueprint from which an object is created during runtime. 
+            Basically, an object is created using the new keyword and the state of an object is stored in a variable, 
+            whereas the behavior of an object is displayed using functions (methods).
+            -> also object is a physical  entity present in JVM memory space.
+
+*****************
+Agenda Day-13 : Global & local scope
+                Global & local variables
+                
+
+->  Global scope : Global scope is a scope where variable is accessible throughout the code
+    Local scope : Local scope is a scope where variable is accessible inside the particular method where it is defined
+
+    Global variable : Global variable is a varibale where variable is defined inside a class and accessible throughoutthe class and can be
+                      accessible by any method which is inside the same class
+    
+    Local variable : local variable is a variable which is defined inside a method and accessible inside the same method only and not outside the method
+
+
+*****************
+Agenda Day-14 : data type in java
+
+
+-> primitive data type : inbuilt datatype
+                         object of primitive datatype never created means heap memorynot created
+                         value is stored inside normal memory
+                         1. byte -128 to +127  [1 byte]
+                         2. short [2 byte]
+                         3. int (-2^31 to 2^31 - 1) [4 byte]
+                         4. long (-2^63 to 2^63 -1) [8 byte]
+                         5. float [4 byte]
+                         6. double [8 byte]
+                         7. boolean [1 bit]
+                         8. char [2 byte] 
+                          
+
+   non primitive datatype : custom datatype / user defined datatype / it is a datatype which is built on primitive datatype
+                            object of non-primitive datatype is created
+                            e.g string ;
+                                Phone ph ;
+
+
+*****************
+Agenda Day-15 : operators in java 
+
+-> 1. Arithmetic operators : +,-,*,/,%
+   2. Conditional/relational operations : >,<,>=>,<=,==,!= [output of Conditional operators is always boolean means true or false]
+   3. Logical operators : and(&&), or(||), not(!)
+   4. bitwise operator :   bitwise and(&), bitwise or(|)
+
+*****************
+Agenda Day-16 : Flow control statements
+                1. Conditional statement (if, if-else,switch)
+                2. Iterative statement (for,while,do-while)
+                3. Transfer statement (break,continue)
 
